@@ -1,0 +1,70 @@
+.contact-page{
+    padding: 3rem 2rem;
+    background-color: black;
+    color: white;
+}
+.contact-page-top-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-form h2{
+    font-family: "Kaushan Script", cursive;
+    background: linear-gradient(
+        to right,
+        #FFA63D 20%,
+        #FF3D77 30%,
+        #338AFF 70%,
+        #3CF0C5 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 3s ease-in-out infinite alternate;
+}
+.contact-form .btn-a{
+    background-color: var(--orange);
+    width: 300px;
+    color: white;
+}
+.contact-details-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact-detail-card{
+    padding: 1rem 1.5rem;
+    background-color: var(--blue);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 300px;
+    color: white;
+}
+.contact-detail-card:nth-child(1){
+    background-color: var(--blue);
+}
+.contact-detail-card:nth-child(2){
+    background-color: var(--purple);
+}
+.contact-detail-card:nth-child(3){
+    background-color: var(--orange);
+}
+.contact-detail-card p{
+    font-size: 12px;
+}
+.contact-detail-card:nth-child(3) p{
+    font-size: 10px;
+}

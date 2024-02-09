@@ -1,0 +1,78 @@
+.category-section{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: black;
+    color: white;
+}
+.category-section-header{
+    text-align: center;
+}
+.category-section-header h2 span{
+    font-family: "Kaushan Script", cursive;
+    background: linear-gradient(
+        to right,
+        #FFA63D 20%,
+        #FF3D77 30%,
+        #338AFF 70%,
+        #3CF0C5 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+.category-section-option-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.category-section-option-card{
+    width: 200px;
+    height: 230px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.category-section-option-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.category-section-option-card-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 110%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background : linear-gradient(-45deg, #ffa43d8a, #ff3d779a, #338bff82, #3cf0c68c);
+    padding: 1.5rem 1.5rem;
+    transition: 0.7s;
+}
+.category-section-option-card-overlay h2{
+    font-size: 1.7rem;
+}
+.category-section-option-card:hover > .category-section-option-card-overlay{
+    top: 0%;
+}
+.category-section-result-section{
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+.category-section-result-section::-webkit-scrollbar{
+    display: none;
+}

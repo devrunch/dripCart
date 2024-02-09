@@ -1,0 +1,21 @@
+.admin-navbar{
+    width: 100%;
+    background-color: black;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+}
+.admin-navbar .link-a{
+    color: white;
+}
+.admin-navbar .admin-navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}

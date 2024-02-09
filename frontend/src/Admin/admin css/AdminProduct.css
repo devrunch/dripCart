@@ -1,0 +1,38 @@
+.admin-product-form-section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+.admin-product-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.admin-product-form > .input-box .input-field{
+    width: 100%;
+}
+.row .input-box .input-field{
+    width: 150px;
+}
+.admin-product-form .btn-a{
+   background-color: rgb(128, 28, 190);
+   color: white;
+   width: 100%;
+}
+.admin-product-form-section img{
+    width: 400px;
+}
+.product-management-section{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

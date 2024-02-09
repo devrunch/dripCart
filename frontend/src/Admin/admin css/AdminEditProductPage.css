@@ -1,0 +1,18 @@
+.admin-edit-product-page{
+    padding: 3rem 2rem;
+    padding-top: 5rem;
+    background-color: black;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.admin-edit-product-page .admin-product-form{
+    width: 500px;
+    color: white;
+}
+.admin-edit-product-page img{
+    width: 400px;
+}

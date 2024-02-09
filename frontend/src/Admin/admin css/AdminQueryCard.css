@@ -1,0 +1,17 @@
+.admin-query-card{
+    padding: 1.5rem 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    min-width: 270px;
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.admin-query-card p{
+    font-size: 10px;
+}
+.admin-query-card h3{
+    color: rgb(83, 207, 245);
+}

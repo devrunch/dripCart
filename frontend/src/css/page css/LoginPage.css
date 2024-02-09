@@ -1,0 +1,33 @@
+.login-page{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    /* color: white; */
+}
+.login-form{
+    background-color: white;
+    padding: 1.3rem 1.5rem;
+    border-radius: 8px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: borderAnimation 4s linear infinite;
+
+}
+.login-form > h6{
+    margin-top: 1rem;
+    /* color: var(--orange); */
+}
+.login-form .btn-a{
+    background-color: var(--purple);
+    color: white;
+}
+.login-page img{
+    width: 360px;
+}
